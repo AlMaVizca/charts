@@ -52,6 +52,20 @@ entries:
     version: 7.0.1
   personal-ovpn:
   - apiVersion: v2
+    appVersion: "2.5"
+    created: "2023-11-27T19:03:11.01089739+07:00"
+    description: Roll your own OpenVPN server
+    digest: 9970c7cee9fb27c044c6c2c683a8c1f778bbe31b64ce00e1750ba739234dba65
+    home: https://github.com/almavizca/charts/tree/main/charts/personal-ovpn
+    maintainers:
+    - email: admin@suda.pl
+      name: suda
+    name: personal-ovpn
+    type: application
+    urls:
+      - https://github.com/AlMaVizca/charts/releases/download/personal-ovpn-0.2.3/personal-ovpn-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
     appVersion: "2.4"
     created: "2021-10-05T09:20:52.311399264Z"
     description: Roll your own OpenVPN server
