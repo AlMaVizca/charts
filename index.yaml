@@ -52,6 +52,20 @@ entries:
     version: 7.0.1
   personal-ovpn:
   - apiVersion: v2
+    appVersion: "2.4"
+    created: "2023-12-11T04:38:30.663768781Z"
+    description: Roll your own OpenVPN server
+    digest: a414af3a0fc87f5f76c8e83c0a18818ce675268e60d8566c4ea13e2012c0d3ee
+    home: https://github.com/suda/charts/tree/main/charts/personal-ovpn
+    maintainers:
+    - email: admin@suda.pl
+      name: suda
+    name: personal-ovpn
+    type: application
+    urls:
+    - https://github.com/AlMaVizca/charts/releases/download/personal-ovpn-0.2.4/personal-ovpn-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
     appVersion: "2.5"
     created: "2023-11-27T19:03:11.01089739+07:00"
     description: Roll your own OpenVPN server
@@ -63,7 +77,7 @@ entries:
     name: personal-ovpn
     type: application
     urls:
-      - https://github.com/AlMaVizca/charts/releases/download/personal-ovpn-0.2.3/personal-ovpn-0.2.3.tgz
+    - https://github.com/AlMaVizca/charts/releases/download/personal-ovpn-0.2.3/personal-ovpn-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
     appVersion: "2.4"
@@ -134,4 +148,4 @@ entries:
     urls:
     - https://github.com/suda/charts/releases/download/scaleway-webhook-0.0.1/scaleway-webhook-0.0.1.tgz
     version: 0.0.1
-generated: "2023-06-29T15:15:12.186906876Z"
+generated: "2023-12-11T04:38:30.66379988Z"
