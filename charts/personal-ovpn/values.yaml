@@ -25,7 +25,6 @@ service:
   # service.nodePort -- port binding for the node
   port: 31304
 
-
 # securityContext -- security context for pod
 security:
   privileged: false
