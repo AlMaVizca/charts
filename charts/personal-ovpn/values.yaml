@@ -57,6 +57,9 @@ tolerations: []
 # affinity -- node/pod affinities (requires Kubernetes >=1.6)
 affinity: {}
 
+# Define configuration and PKI using secrets and configmaps
+secretName: ovpn0
+
 automatic:
   # automatic.enabled -- Skip manual steps and generate configuration & pki according to values config, Warning, PKI will be passwordless !
   enabled: false
