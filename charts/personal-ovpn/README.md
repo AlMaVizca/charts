@@ -76,6 +76,7 @@ But if you really want to, you can enable it by setting `limitTraficToNamespace`
 | security.ipForward | int | `0` |  |
 | security.privileged | bool | `false` |  |
 | service.port | int | `31304` | OpenVPN port |
+| service.port | int | `31304` | OpenVPN port |
 | service.protocol | string | `"TCP"` | OpenVPN protocol |
 | service.type | string | `"NodePort"` | Service type |
 | tolerations | list | `[]` | node taints to tolerate (requires Kubernetes >=1.6) |
