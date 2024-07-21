@@ -4,8 +4,6 @@ description: Roll your own OpenVPN server
 name: personal-ovpn
 version: 0.2.3
 type: application
-source:
-  - https://github.com/suda/charts/tree/main/charts/personal-ovpn
 home: https://github.com/suda/charts/tree/main/charts/personal-ovpn
 maintainers:
   - email: admin@suda.pl
